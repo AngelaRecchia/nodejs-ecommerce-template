@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<link type="text/css" rel="stylesheet"  href="css/product.css">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>E-commerce</title>
+</head>
+
+<body>
+  <nav id="nav">
+    <span class="search searchMenu">
+      <input type="text" placeholder="Search">
+      <button class="button"><i class="fa fa-search"></i></button>
+    </span>
+    <span class="space"></span>
+    <button class="menuIcon menutoggle"><i class="fa fa-shopping-cart fa-lg"></i><span class="badge">0</span></button>
+    <button class="menuIcon" id="user"><i class="fa fa-user fa-lg"></i></button>
+    <span >
+      Welcome!<br>
+      <a>Sign in</a> | <a>Register</a>
+    </span>
+  </nav>
+  <div id="title">
+    <h1>Category products</h1>
+    <p><a>Home</a> / <a>Best category</a> / Great articles</p>
+  </div>
+  <div id="content">
+    <div id="categories">
+      <div id="box">
+        <div id="head">
+          Product categories
+          <span class="space2"></span>
+          <i class="fa fa-chevron-down"></i>
+        </div>
+        <ul id="categoryList">
+
+        </ul>
+      </div>
+    </div>
+    <div id="products">
+      <div id="filters">
+        <span id="foundItems"></span>
+        <span class="space2"></span>
+        <select>
+          <option selected>Latest items</option>
+          <option>Name</option>
+          <option>Category</option>
+        </select>
+      </div>
+      <div id="items"></div>
+      <div id="pagination">
+        
+      </div> 
+    </div>
+  </div>
+<script type="text/javascript" src="app.bundle.js"></script></body>
+
+<style>
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 1480px){
+    .product-image {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  #nav {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .menuIcon {
+    width: 45px;
+    border: 1px solid grey;
+    border-radius: 100%;
+    background: white;
+    color: grey; 
+  }
+
+  @import url('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+  .menutoggle {
+    position: relative;
+    float: left;
+    cursor: pointer;
+    -moz-transition: all 0.2s ease-out 0s;
+    -webkit-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s;
+  }
+
+  .badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display:inline-block;
+    min-width:10px;
+    padding:3px 7px;
+    font-size:12px;
+    font-weight:700;
+    line-height:1;
+    color:#fff;
+    text-align:center;
+    white-space:nowrap;
+    vertical-align:baseline;
+    background-color:red;
+    border-radius:10px;
+}
+
+  .search {
+    display: inline-flex;
+  }
+
+  .searchMenu {
+    width: 400px;
+  }
+
+  .search input[type=text]{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+
+  .search button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+  }
+
+  button.button {
+    background: #2196F3;
+    color: white;
+    cursor: pointer;
+  }
+
+  button.button:hover {
+    background: #0b7dda;
+  }
+
+  .search::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .space {
+    flex: 0.1 1 auto;
+  }
+  
+  .space2 {
+    flex: 1 1 auto;
+  }
+
+  #user {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #title {
+    background-color: #bdd8e0;
+    padding-left: 10%;
+  }
+
+  #content {
+    display: flex;
+  }
+
+  #content div:not(.product) {
+    padding-top: 15px;
+  }
+
+  #categories {
+    width: 25%;
+    padding-left: 10%;
+  }
+
+  #box {
+    border: 1px solid grey;
+    padding: 10px;
+    display: block;
+  }
+
+  #head {
+    display: flex;
+    font-weight: bold;
+  }
+
+  #categoryList {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  #categoryList li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .category {
+    text-decoration: none;
+  }
+
+  #products {
+    width: 70%;
+    padding-left: 50px;
+    padding-right: 10%;
+    display: block;
+  }
+
+  #filters {
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+  }
+
+  .product {
+    display: flex;
+    width: 100%;
+    border: 1px solid grey;
+    margin-top: 10px;
+  }
+
+  .product span {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #description {
+    width: 50%;
+  }
+
+  #purchase {
+    border-left: 1px solid grey;
+  }
+
+  #pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+
+  #pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+  #pagination a:hover:not(.active) {
+    background-color: #ddd;
+  } 
+</style>
+
+</html>

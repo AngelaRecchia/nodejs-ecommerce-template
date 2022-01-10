@@ -1,0 +1,28 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "less.compile": {
+        "out": false
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "docs": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/out": true,
+        "**/coverage": true
+    },
+    "editor.formatOnSave": true,
+    "html.format.enable": false,
+    "json.format.enable": false,
+    "typescript.format.enable": true,
+    "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "typescript.autoImportSuggestions.enabled": false,
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "files.insertFinalNewline": true
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "orderId": "48d83486-1c9d-456d-b7ee-2588b9e58218",
+        "productId": "aa21af6a-b3a0-455e-b8e2-6bd1bd013a12",
+        "quantity": 2
+    },
+    {
+        "orderId": "48d83486-1c9d-456d-b7ee-2588b9e58218",
+        "productId": "dfd9efe1-8f1b-44b2-984a-a70cb5a537a4",
+        "quantity": 3
+    },
+    {
+        "orderId": "48d83486-1c9d-456d-b7ee-2588b9e58218",
+        "productId": "8020b39f-ae51-4227-a808-11c823bc044a",
+        "quantity": 10
+    },
+    {
+        "orderId": "48d83486-1c9d-456d-b7ee-2588b9e58218",
+        "productId": "f55ea971-3b4a-4d9e-ac83-909eb33e470c",
+        "quantity": 4
+    },
+    {
+        "orderId": "7a45bd9d-87f4-4f23-9cc6-081debffb8e4",
+        "productId": "230c2bb0-f839-44fe-966a-9ba25af603a1",
+        "quantity": 1
+    },
+    {
+        "orderId": "7a45bd9d-87f4-4f23-9cc6-081debffb8e4",
+        "productId": "17900272-aa97-499a-83b4-44eb324175a1",
+        "quantity": 2
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "id": "fe6367d1-f3dc-400f-ac4e-cb7b94d50c8c",
+        "name": "John",
+        "surname": "White",
+        "email": "john.white@gmail.com"
+    },
+    {
+        "id": "dd07d636-68aa-41f0-8a92-20144ff78ac1",
+        "name": "Joe",
+        "surname": "Black",
+        "email": "joe.black@gmail.com"
+    },
+    {
+        "id": "418d672b-0947-48cf-ad4b-091381f07422",
+        "name": "Alice",
+        "surname": "Green",
+        "email": "joe.black@gmail.com"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "id": "2ac4afbd-4765-457a-ab8b-bd26466ba378",
+        "name": "technology"
+    },
+    {
+        "id": "a4d290db-988d-4ff6-99c3-12d8f972f5b6",
+        "name": "houseware"
+    },
+    {
+        "id": "87135a24-ed02-4bd4-a95c-9ab111e538b9",
+        "name": "clothing"
+    },
+    {
+        "id": "5dc6bb87-ef63-494c-b0b7-8e41a680871b",
+        "name": "sport"
+    },
+    {
+        "id": "0de59c03-bb64-4561-87d7-69e172674a3f",
+        "name": "office"
+    },
+    {
+        "id": "102380dc-04a1-4152-ac6d-2569dcab57a7",
+        "name": "toys"
+    },
+    {
+        "id": "e5f44ce9-8e28-46d0-9860-7bc1064a9f86",
+        "name": "food"
+    }
+]

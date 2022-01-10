@@ -1,0 +1,142 @@
+[
+    {
+        "id": "aa21af6a-b3a0-455e-b8e2-6bd1bd013a12",
+        "name": "iPhone 11 Pro",
+        "categoryId": "2ac4afbd-4765-457a-ab8b-bd26466ba378",
+        "price": 999,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "d9fa2c65-46f3-4652-98fd-237149ef6b7d",
+        "name": "Dual sim phone",
+        "categoryId": "2ac4afbd-4765-457a-ab8b-bd26466ba378",
+        "price": 150,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "dfd9efe1-8f1b-44b2-984a-a70cb5a537a4",
+        "name": "Blue T-shirt",
+        "categoryId": "87135a24-ed02-4bd4-a95c-9ab111e538b9",
+        "price": 20,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "b1b257f1-4094-465d-aa06-b0300aada42b",
+        "name": "Airpods",
+        "categoryId": "2ac4afbd-4765-457a-ab8b-bd26466ba378",
+        "price": 259,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "f55ea971-3b4a-4d9e-ac83-909eb33e470c",
+        "name": "Black pen",
+        "categoryId": "0de59c03-bb64-4561-87d7-69e172674a3f",
+        "price": 9.90,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "3f10e406-8f13-4024-bda0-433cccf0af4d",
+        "name": "Tennis racket",
+        "categoryId": "5dc6bb87-ef63-494c-b0b7-8e41a680871b",
+        "price": 150,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "dbaab818-584e-4693-951e-3b8fe90d691c",
+        "name": "Soccer ball",
+        "categoryId": "5dc6bb87-ef63-494c-b0b7-8e41a680871b",
+        "price": 5,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "8020b39f-ae51-4227-a808-11c823bc044a",
+        "name": "Usb cable",
+        "categoryId": "2ac4afbd-4765-457a-ab8b-bd26466ba378",
+        "price": 9,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "7835d5fc-05c2-4f2e-9743-2adf3cdb60f2",
+        "name": "4k Screen",
+        "categoryId": "2ac4afbd-4765-457a-ab8b-bd26466ba378",
+        "price": 2999,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "3a94a8db-33dc-4a38-abad-c2c3cd608c65",
+        "name": "Foldable calendar",
+        "categoryId": "0de59c03-bb64-4561-87d7-69e172674a3f",
+        "price": 2,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "a279a2e2-f615-426b-b385-15f3d7592fbb",
+        "name": "Blue bottle",
+        "categoryId": "a4d290db-988d-4ff6-99c3-12d8f972f5b6",
+        "price": 10,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "e2ad4039-21cd-4e2b-ab59-ced6ceb899be",
+        "name": "Chocolate cookies",
+        "categoryId": "e5f44ce9-8e28-46d0-9860-7bc1064a9f86",
+        "price": 2.50,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "459e1fad-3ee1-4cb0-9c5f-73378a000217",
+        "name": "Airplane",
+        "categoryId": "102380dc-04a1-4152-ac6d-2569dcab57a7",
+        "price": 29.90,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "230c2bb0-f839-44fe-966a-9ba25af603a1",
+        "name": "Black watch",
+        "categoryId": "87135a24-ed02-4bd4-a95c-9ab111e538b9",
+        "price": 99,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "57f73b5b-5f0b-4e3f-8e4c-06ab16824a83",
+        "name": "Kitchen scale",
+        "categoryId": "a4d290db-988d-4ff6-99c3-12d8f972f5b6",
+        "price": 15,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "8302349b-77de-4fd3-813d-97729ba7abec",
+        "name": "20 pack scissors",
+        "categoryId": "0de59c03-bb64-4561-87d7-69e172674a3f",
+        "price": 8,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "17900272-aa97-499a-83b4-44eb324175a1",
+        "name": "Action camera",
+        "categoryId": "2ac4afbd-4765-457a-ab8b-bd26466ba378",
+        "price": 149,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "6c667d86-054e-4219-abfd-3b0fb7545ef2",
+        "name": "Magnetic letters and numbers",
+        "categoryId": "102380dc-04a1-4152-ac6d-2569dcab57a7",
+        "price": 25,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "32dc3f44-d057-4c82-aa38-b07aa7c61408",
+        "name": "Fire extinguisher",
+        "categoryId": "0de59c03-bb64-4561-87d7-69e172674a3f",
+        "price": 20,
+        "imageUrl": "https://picsum.photos/250"
+    },
+    {
+        "id": "9dae7e26-661f-44e3-b282-498dd1789f74",
+        "name": "Toaster",
+        "categoryId": "a4d290db-988d-4ff6-99c3-12d8f972f5b6",
+        "price": 15,
+        "imageUrl": "https://picsum.photos/250"
+    }
+]
